@@ -1,0 +1,38 @@
+h2 {
+    color:rgb(175, 145, 175)
+}
+body {
+    background-color:rgb(232, 230, 241)
+}
+nav {
+    background-color: #baacd4;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: rgb(102, 95, 120);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+        /* Hover effect */
+nav a:hover {
+    background-color: #e6d8e2;
+}
+        /* Active (current page) link */
+nav a.active {
+    background-color: #d9ccef;  /* a green highlight */
+    font-weight: bold;          /* make it stand out */
+}
+ .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
